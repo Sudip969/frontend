@@ -97,6 +97,9 @@ export default {
       snackbar:false,
     };
   },
+  mounted(){
+    this.$router.push("/the-header/dashboard")
+  }
 };
 </script>
 <style scoped>
